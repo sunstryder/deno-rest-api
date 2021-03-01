@@ -19,34 +19,19 @@ const getProducts = ({response}:{response:any }) => {
 // @desc get single product
 // @route GET /api/v1/products/:id
 const getSingleProduct= ({response}:{response:any }) => {
-    response.body = {
-        success: true,
-        data: products
-    }
+    response.body = 'getSingle'
 }
 
-// @desc add one product
-// @route PUT /api/v1/products/:id
-
 const addProduct= ({response}:{response:any }) => {
-    response.body = {
-        success: true,
-        data: products
-    }
+    response.body = 'add'
 }
 
 const updateProduct= ({response}:{response:any }) => {
-    response.body = {
-        success: true,
-        data: products
-    }
+    response.body = 'update'
 }
 
 const deleteProduct= ({response}:{response:any }) => {
-    response.body = {
-        success: true,
-        data: products
-    }
+    response.body = 'delete'
 }
 
 
